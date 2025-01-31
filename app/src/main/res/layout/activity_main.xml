@@ -22,6 +22,7 @@
         android:layout_marginBottom="8dp"/>
 
     <EditText
+        android:id="@+id/txtProducto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"
@@ -34,11 +35,13 @@
         android:layout_marginBottom="8dp"/>
 
     <Spinner
+        android:id="@+id/spinnerCategoria"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"/>
 
     <Button
+        android:id="@+id/btnBuscar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Buscar"
